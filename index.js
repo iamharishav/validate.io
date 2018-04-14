@@ -31,4 +31,4 @@ app.post('/verify-email-address', function (req, res) {
 	}
 })
 
-app.listen(1000, () => console.log('Email Validator Runs on 1000'))
+app.listen(80, () => console.log('Email Validator Runs on 80'))
